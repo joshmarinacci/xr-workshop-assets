@@ -6,14 +6,15 @@
 
 ## standard entity
 
-This makes a 1 meter red cube 
-positioned 4 meters in front of the camera, rotated by 45 degrees
+This makes a 1 meter red cube ,
+positioned 4 meters in front of the camera at head height,
+rotated by 45 degrees
 
 ```html
 <a-entity
    geometry="primitive:box; width:1.0, height:1.0, depth:1.0;"
    material="color:red;"
-   position="0 0 -4"
+   position="0 1.5 -4"
    rotation="0 45 0"
 >
 </a-entity>
