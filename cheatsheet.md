@@ -3,6 +3,23 @@
 
 
 # A-Frame cheat sheet
+
+## standard entity
+
+This makes a 1 meter red cube 
+positioned 4 meters in front of the camera, rotated by 45 degrees
+
+```html
+<a-entity
+   geometry="primitive:box; width:1.0, height:1.0, depth:1.0;"
+   material="color:red;"
+   position="0 0 -4"
+   rotation="0 45 0"
+>
+</a-entity>
+```
+
+
 Always use `a-entity` except for `a-scene`, `a-camera`, `a-assets`, `a-asset-item`, `img`, `video`. 
 
 ## standard components:
